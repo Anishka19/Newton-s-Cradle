@@ -57,7 +57,7 @@ function draw() {
   bob5.display();
 
   if(keyDown("UP_ARROW")) {
-	Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-20,y:-25});
+	Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-20,y:-15});
   }
 
   //keyPressed();
